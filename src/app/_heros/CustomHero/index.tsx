@@ -23,9 +23,10 @@ export const CustomHero: React.FC<Page['hero']> = ({ richText, media, links }) =
           {Array.isArray(links) && links.length > 0 && (
             <ul className={classes.links}>
               {links.map(({ link }, i) => {
+                const url = link.url || '' // Ensure url is not nullable
                 return (
                   <li key={i}>
-                    <CMSLink {...link} type={link.type || 'reference'} />
+                    <CMSLink {...link} type={link.type || 'reference'} url={url} /> // Pass the non-nullable url
                   </li>
                 )
               })}
