@@ -319,3 +319,11 @@ The easiest way to deploy your project is to use [Payload Cloud](https://payload
 ## Questions
 
 If you have any issues or questions, reach out to us on [Discord](https://discord.com/invite/payload) or start a [GitHub discussion](https://github.com/payloadcms/payload/discussions).
+
+
+
+Smple images for ref
+![image](https://github.com/mihirksingh21/ecommerce/assets/92274883/fa562122-5427-4be4-88a9-622087618b06)
+![image](https://github.com/mihirksingh21/ecommerce/assets/92274883/897fa5b7-51c8-4239-90ec-6aca7383c9d5)
+![image](https://github.com/mihirksingh21/ecommerce/assets/92274883/db1a1c6f-0be1-485f-9b59-cb3c199f27db)
+
