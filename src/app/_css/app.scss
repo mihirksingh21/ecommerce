@@ -49,8 +49,13 @@ body {
   margin: 0;
   padding: 0;
   color: var(--color-dark-500);
+
   display: flex;
   flex-flow: column;
+}
+
+.main {
+  flex: 1 1 auto;
 }
 
 ::selection {
@@ -102,11 +107,11 @@ ol {
   margin: 0;
   padding: 0;
   list-style: none;
-  
 }
 
 a {
   color: var(--color-dark-500);
+  text-decoration: none;
 
   &:focus {
     opacity: .8;
